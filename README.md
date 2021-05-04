@@ -44,7 +44,7 @@ follow: 关注数
 
 就正常爬就行了. 其实可以整个IP代理. 有的地方直接爬爬不到, 加上`cookie`就好了.
 
-有遇到过编码问题. 直接大力`.encode('utf-8').decode('utf-8')`解决.
+有遇到过编码问题(emoji编码). 直接大力`.encode('utf-8').decode('utf-8')`解决.
 
 ### `date_cleanup(start: datetime, end: datetime)`
 
